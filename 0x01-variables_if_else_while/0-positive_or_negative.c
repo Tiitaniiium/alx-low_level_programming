@@ -7,15 +7,15 @@
 *
 * Description - using the main function
 * this program prints "Programming is positive, zero, negative
-* return 0
+* return: 0
 */
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MA / 2;
-/* put your code here*/
+srand(time(0));
+n = rand() - RAND_MA / 2;
+ /* put your code here*/
 if (n > 0)
 {
 	printf("%i is positive\n", n);
