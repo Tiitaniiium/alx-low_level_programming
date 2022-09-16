@@ -5,9 +5,9 @@
 int main()
 {
 	char ch;
-	for char(ch = 'a', ch <= 'z', ch++)
+	for (ch = 'a', ch <= 'z', ch++)
 		putchar(ch);
-		putchar("\n");
+		putchar('\n');
 
-	return 0;
+	return (0);
 }
