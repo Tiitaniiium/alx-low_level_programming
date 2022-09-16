@@ -4,7 +4,7 @@
 
 /**
 *main - Entry point
-*Description - print alphabet in lowercase and uppercase with a line
+*Result: 0
 */
 int main(void)
 {
