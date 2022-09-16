@@ -8,6 +8,7 @@
 */
 int main(void)
 {
+	/* print alphabet in lowercase */
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
