@@ -12,7 +12,7 @@ int main(void)
 	char ch;
 		for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-	
+
 	/* print lowercase letters */
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	putchar(ch);
