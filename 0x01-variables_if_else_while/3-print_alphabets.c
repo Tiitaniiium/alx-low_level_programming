@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
 *main - Entry point
@@ -6,11 +8,11 @@
 */
 int main(void)
 {
-	// ch is alphabet in lowercase
-	// Ch is alphabet in Uppercase
-	char ch; Ch;
+
+	char ch; /* ch is for lowercase alphabet */
 		for (ch = 'a'; ch <= 'z'; ch++)
 		putchar("%c", ch);
+	char Ch; /* Ch is for uppercase alphabet */
 	for (Ch = 'A'; Ch <= 'Z'; Ch++)
 	putchar("%c", Ch);
 		putchar('\n');
