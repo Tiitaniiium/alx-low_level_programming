@@ -6,7 +6,7 @@
 *main - Entry point
 *Description - print alphabet in lowercase and uppercase with a line
 */
-int main()
+int main(void)
 {
 	/* print lowercase letter */
 	char ch;
@@ -17,5 +17,5 @@ int main()
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	putchar(ch);
 	putchar('\n');
-	return 0;
+	return (0);
 }
