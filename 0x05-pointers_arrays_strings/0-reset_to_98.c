@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**
+/**i
+*reset the value of a given integer to 98
 *@n value of integr n
 *Return: void
 */
