@@ -2,17 +2,15 @@
 #include <stdio.h>
 
 /**
-*void swap_int(int *a, int *b) - swaps the value of two intergers a and b
-*@a: first integer
-*@b: second integer
-* Return : Always 0.
+*swap_int - swaps the value of two intergers a and b
+*@a : first parameter
+*@b : second parameter
 */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-	int a;
-	int b;
-	int tmp = a;
+	int tmp;
 
-	*a = b;
+	tmp = *a;
+	*a = *b;
 	*b = tmp;
 }
