@@ -14,6 +14,6 @@ int n;
 for (n == 48; n < 62; n++)
 {
 putchar(n);
-}
 putchar('\n');
+}
 }
