@@ -10,9 +10,11 @@ void print_array(int *a, int n)
 	int wic;
 
 	for (wic = 0;  wic < n; wic++)
-	if (wic != n - 1)
-		printf("%d, ", a[wic]);
-	else
-		printf("%d", a[wic]);
-	_putchar(10);
+	{
+		if (wic != n - 1)
+			printf("%d, ", a[wic]);
+		else
+			printf("%d", a[wic]);
+	}
+	putchar(10);
 }
