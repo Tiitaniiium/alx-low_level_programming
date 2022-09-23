@@ -8,7 +8,7 @@
 */
 char *_strcpy(char *dest, char *src)
 {
-	int gwu;
+	int gwu = 0;
 
 	while (*(src + gwu) != '\0')
 	{
@@ -16,6 +16,4 @@ char *_strcpy(char *dest, char *src)
 		gwu++;
 	}
 	*(dest + gwu) = '\0';
-
-	return (dest);
 }
