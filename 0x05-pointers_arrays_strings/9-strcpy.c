@@ -16,4 +16,6 @@ char *_strcpy(char *dest, char *src)
 		gwu++;
 	}
 	*(dest + gwu) = '\0';
+
+	return (dest);
 }
