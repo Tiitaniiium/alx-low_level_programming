@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* __strspn - gets length of a prefix substring
+* _strspn - gets length of a prefix substring
 * @s: string to check
 * @accept: string to check against
 *
@@ -10,7 +10,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j;
-	
+
 	for (i = 0; s[i]; i++)
 	{
 		for (j = 0; accept[j]; j++)
@@ -21,5 +21,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (!accept[j])
 			break;
 	}
-	return (i);[B[B
+	return (i);
 }
