@@ -4,8 +4,8 @@
 * _strpbrk - searches a string for any of a set of bytes
 * @s: string to check
 * @accept: string to check against
-**
-* Return: pointer to byte in s that matches or NULL if no match
+*
+* Return: pointer to byte in s
 */
 char *_strpbrk(char *s, char *accept)
 {
@@ -18,7 +18,7 @@ char *_strpbrk(char *s, char *accept)
 			if (s[i] == accept[j])
 				break;
 		}
-		if (accept[i])
+		if (accept[j])
 			return (s + i);
 	}
 	return (0);
