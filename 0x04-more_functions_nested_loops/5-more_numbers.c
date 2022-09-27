@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-*more_numbers - function prints 10 times the numbers, from 0 to 14
-*@n: parameter
-*Return: returns void
+* more_numbers - function prints 10 times the numbers, from 0 to 14
+* _putchar only 3 times
+* Return: returns void
 */
 
 void more_numbers(void)
