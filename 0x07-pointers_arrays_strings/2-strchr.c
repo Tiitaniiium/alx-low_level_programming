@@ -3,7 +3,7 @@
 /**
  * _strchr - locates a character in a string
  *@s: string to check
- *@c: character to check for 
+ *@c: character to check for
  * Return: pointer to char if char is found else Null
  */
 char *_strchr(char *s, char c)
