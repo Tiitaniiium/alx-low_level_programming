@@ -8,7 +8,8 @@ int is_prime_number(int n);
  *@num: the number to be checked.
  *@div: the divisor.
  *
- *Return: if n is prime number, return 1
+ *Return: if the numberis divisible - 0.
+ *	  if the number is not divisible - 1.
  */
 
 int is_divisible(int num, int div)
